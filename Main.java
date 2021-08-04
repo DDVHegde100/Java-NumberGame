@@ -29,7 +29,7 @@ public class GuessingGame {
             return "Too High, Try Again.\nTry Number: " + count;
         }
         else if (userAnswer < computerNumber) {
-            return "Too Low, try again.\nTry Again: " + count;
+            return "Too Low, Try Again.\nTry Again: " + count;
         }
         else {
             return "Your guess is incorrect\nTry Again: " + count;
